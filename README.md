@@ -1,4 +1,4 @@
-# Clickstream Analysis with IBM Db2 Event Store
+# Clickstream Analysis with IBM DB2 Event Store
 
 IBM Db2 Event Store offers high-speed ingestion and real-time analytics for large
 volumes of streaming data. The platform enables event-driven applications to
