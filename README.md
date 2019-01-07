@@ -12,7 +12,7 @@ targeted offers to drive sales.
 
 Sample notebooks demonstrate the use case of clickstream analysis with
 IBM Db2 Event Store using Scala APIs to ingest and analyze web event data.
-Credit goes to [Siva Anne](https://github.com/annesiva) of the [IBM Data Science Elite Team](https://github.com/orgs/IBM-DSE) for the original Jupyter Notebooks.
+Credit goes to [Siva Anne](https://github.com/annesiva) of the [IBM Data Science Elite Team](https://github.com/IBM-DSE) for the original Jupyter Notebooks.
 
 When the reader has completed this code pattern, they will understand how to:
 
@@ -31,8 +31,8 @@ When the reader has completed this code pattern, they will understand how to:
 
 ## Included components
 
-* [IBM Db2 Event Store](https://www.ibm.com/us-en/marketplace/db2-event-store): In-memory database optimized for event-driven data processing and analysis.
-* [Jupyter Notebook](http://jupyter.org/): An open source web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
+* [IBM Db2 Event Store](https://www.ibm.com/products/db2-event-store): In-memory database optimized for event-driven data processing and analysis.
+* [Jupyter Notebook](https://jupyter.org/): An open source web application that allows you to create and share documents that contain live code, equations, visualizations, and explanatory text.
 * [Scala](https://www.scala-lang.org/): Scala combines object-oriented and functional programming in one concise, high-level language.
 * [Brunel](https://github.com/Brunel-Visualization/Brunel): Brunel defines a highly succinct and novel language that defines interactive data visualizations based on tabular data.
 
@@ -44,7 +44,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 # Watch the Video
 
-[![](http://img.youtube.com/vi/XJmRDmZ6VDs/0.jpg)](https://www.youtube.com/watch?v=XJmRDmZ6VDs)
+[![](https://img.youtube.com/vi/XJmRDmZ6VDs/0.jpg)](https://www.youtube.com/watch?v=XJmRDmZ6VDs)
 
 # Steps
 
@@ -198,21 +198,21 @@ This notebook demonstrates how to:
 
 # Sample output
 
-See the notebook with example output and **interactive charts** [here](http://nbviewer.jupyter.org/github/IBM/db2-event-store-clickstream/blob/master/data/examples/analyze_clickstream_events.ipynb).
+See the notebook with example output and **interactive charts** [here](https://nbviewer.jupyter.org/github/IBM/db2-event-store-clickstream/blob/master/data/examples/analyze_clickstream_events.ipynb).
 
 # Links
 
-* [**Ingest and Analyze Streaming Event Data at Scale with IBM Db2 EventStore**](http://www.ibmbigdatahub.com/blog/ingest-and-analyze-streaming-event-data-scale-ibm-eventstore)
+* [**Ingest and Analyze Streaming Event Data at Scale with IBM Db2 EventStore**](https://www.ibmbigdatahub.com/blog/ingest-and-analyze-streaming-event-data-scale-ibm-eventstore)
 * [**Fast Data Ingestion, ML Equates to Smarter Decisions Faster**](https://www.ibm.com/blogs/think/2018/03/db2-event-store/)
 * [**IBM Db2 Event Store Solution Brief**](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=09014509USEN&)
 * [**Overview of IBM Db2 Event Store Enterprise Edition**](https://www.ibm.com/support/knowledgecenter/en/SSGNPV_1.1.3/local/overview.html#overview)
 * [**Developer Guide for IBM Db2 Event Store Client APIs**](https://www.ibm.com/support/knowledgecenter/en/SSGNPV_1.1.3/develop/dev-guide.html)
-* [**IBM Marketplace**](https://www.ibm.com/us-en/marketplace/db2-event-store)
-* [**Getting Started with Scala and sbt**]( https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
+* [**IBM Marketplace**](https://www.ibm.com/products/db2-event-store)
+* [**Getting Started with Scala and sbt**](https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
 
 # Learn more
 
-* **Data Analytics Code Patterns**: Enjoyed this code pattern? Check out our other [data analytics code patterns](https://developer.ibm.com/code/technologies/analytics/)
+* **Data Analytics Code Patterns**: Enjoyed this code pattern? Check out our other [data analytics code patterns](https://developer.ibm.com/technologies/analytics/)
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our code pattern videos
 * **IBM Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://www.ibm.com/cloud/watson-studio)
 
