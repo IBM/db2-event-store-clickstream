@@ -59,7 +59,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 ### 1. Install IBM Db2 Event Store Developer Edition
 
-Install IBM® Db2® Event Store Developer Edition on Mac, Linux, or Windows by following the instructions [here.](https://www.ibm.com/support/knowledgecenter/en/SSGNPV_1.1.3/desktop/install.html)
+Install IBM® Db2® Event Store Developer Edition on Mac, Linux, or Windows by following the instructions [here.](https://www.ibm.com/products/db2-event-store)
 
 > Note: This code pattern was developed with Event Store Developer Edition 1.1.4
 
@@ -204,10 +204,9 @@ See the notebook with example output and **interactive charts** [here](https://n
 
 * [**Ingest and Analyze Streaming Event Data at Scale with IBM Db2 EventStore**](https://www.ibmbigdatahub.com/blog/ingest-and-analyze-streaming-event-data-scale-ibm-eventstore)
 * [**Fast Data Ingestion, ML Equates to Smarter Decisions Faster**](https://www.ibm.com/blogs/think/2018/03/db2-event-store/)
-* [**IBM Db2 Event Store Solution Brief**](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=09014509USEN&)
 * [**Overview of IBM Db2 Event Store Enterprise Edition**](https://www.ibm.com/support/knowledgecenter/en/SSGNPV_1.1.3/local/overview.html#overview)
 * [**Developer Guide for IBM Db2 Event Store Client APIs**](https://www.ibm.com/support/knowledgecenter/en/SSGNPV_1.1.3/develop/dev-guide.html)
-* [**IBM Marketplace**](https://www.ibm.com/products/db2-event-store)
+* [**Db2 Event Store Product Page**](https://www.ibm.com/products/db2-event-store)
 * [**Getting Started with Scala and sbt**](https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
 
 # Learn more
