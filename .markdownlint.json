@@ -29,10 +29,5 @@
     },
     "spelling": false,
     "no-alt-text": true,
-    "no-blanks-blockquote": false,
-    "html": {
-        "allowed_elements": [
-            "kbd"
-        ]
-    }
+    "no-blanks-blockquote": false
 }
