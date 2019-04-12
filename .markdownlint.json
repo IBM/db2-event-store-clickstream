@@ -1,20 +1,13 @@
 {
     "_docs_for_this_file": "https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md",
     "line-length": false,
-    "first-line-h1": true,
-    "first-header-h1": {
-        "level": 1
-    },
+    "first-line-h1": false,
     "header-style": {
         "style": "atx"
     },
     "ul-style": {
         "style": "asterisk"
     },
-    "hr-style": {
-        "style": "---"
-    },
-    "fenced-code-language": true,
     "required-headers": {
         "headers": [
             "*",
@@ -27,7 +20,5 @@
             "## License"
         ]
     },
-    "spelling": false,
-    "no-alt-text": true,
     "no-blanks-blockquote": false
 }
