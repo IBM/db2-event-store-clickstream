@@ -1,4 +1,6 @@
+<!-- markdownlint-disable MD041 -->
 [![Build Status](https://travis-ci.org/IBM/db2-event-store-clickstream.svg?branch=master)](https://travis-ci.org/IBM/db2-event-store-clickstream)
+<!-- markdownlint-enable MD041 -->
 
 # Clickstream Analysis with IBM Db2 Event Store
 
