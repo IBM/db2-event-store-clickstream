@@ -42,13 +42,13 @@ When the reader has completed this code pattern, they will understand how to:
 * [Analytics](https://developer.ibm.com/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Data Science](https://medium.com/ibm-data-science-experience/): Systems and scientific methods to analyze structured and unstructured data in order to extract knowledge and insights.
 
-# Watch the Video
+## Watch the Video
 
-[![](https://img.youtube.com/vi/XJmRDmZ6VDs/0.jpg)](https://www.youtube.com/watch?v=XJmRDmZ6VDs)
+[![video](https://img.youtube.com/vi/XJmRDmZ6VDs/0.jpg)](https://www.youtube.com/watch?v=XJmRDmZ6VDs)
 
-# Steps
+## Steps
 
-## Run locally
+### Run locally
 
 1. [Install IBM Db2 Event Store Developer Edition](#1-install-ibm-db2-event-store-developer-edition)
 2. [Clone the repo](#2-clone-the-repo)
@@ -57,13 +57,13 @@ When the reader has completed this code pattern, they will understand how to:
 5. [Import and run the Jupyter Notebook to analyze the data](#5-import-and-run-the-jupyter-notebook-to-analyze-the-data)
 6. [See the results](#6-see-the-results)
 
-### 1. Install IBM Db2 Event Store Developer Edition
+#### 1. Install IBM Db2 Event Store Developer Edition
 
 Install IBM® Db2® Event Store Developer Edition on Mac, Linux, or Windows by following the instructions [here.](https://www.ibm.com/products/db2-event-store)
 
 > Note: This code pattern was developed with Event Store Developer Edition 1.1.4
 
-### 2. Clone the repo
+#### 2. Clone the repo
 
 Clone the `db2-event-store-clickstream` locally. In a terminal, run:
 
@@ -71,7 +71,7 @@ Clone the `db2-event-store-clickstream` locally. In a terminal, run:
 git clone https://github.com/IBM/db2-event-store-clickstream
 ```
 
-### 3. Add the CSV file as a data asset
+#### 3. Add the CSV file as a data asset
 
 Use the Db2 Event Store UI to add the CSV input file as a data asset.
 
@@ -87,11 +87,9 @@ Use the Db2 Event Store UI to add the CSV input file as a data asset.
 
    ![data_assets](doc/source/images/data_assets.png)
 
-### 4. Import and run the Jupyter Notebook to ingest data
+#### 4. Import and run the Jupyter Notebook to ingest data
 
-#### Import the notebook
-
-Use the Db2 Event Store UI to create the notebook.
+Use the Db2 Event Store UI to create, edit, and run the notebook.
 
 1. From the upper-left corner `☰` drop down menu, select `My Notebooks`.
 1. Click on `add notebooks`.
@@ -101,8 +99,6 @@ Use the Db2 Event Store UI to create the notebook.
 1. Scroll down and click on `Create Notebook`.
 
    ![create_notebook](doc/source/images/create_notebook.png)
-
-#### Run the notebook
 
 1. Edit the `HOST` constant in the first code cell. You will need to enter your host's IP address in place of the `XXX.XXX.XXX.XXX` value.
 
@@ -116,15 +112,11 @@ This notebook demonstrates how to:
 * Create a table
 * Load data from a CSV file or a DataFrame
 
-### 5. Import and run the Jupyter Notebook to analyze the data
+#### 5. Import and run the Jupyter Notebook to analyze the data
 
-#### Import the notebook
+Use the Db2 Event Store UI to create, edit, and run the notebook.
 
-Use the Db2 Event Store UI to create the notebook.
-
-* Follow the same steps as above, but select the file `analyze_clickstream_events.ipynb` from your repo's `notebooks` directory.
-
-#### Run the notebook
+1. Follow the same steps as above, but select the file `analyze_clickstream_events.ipynb` from your repo's `notebooks` directory.
 
 1. Edit the `HOST` constant in the first code cell. You will need to enter your host's IP address in place of the `XXX.XXX.XXX.XXX` value.
 
@@ -137,7 +129,7 @@ This notebook demonstrates how to:
 * Prepare and aggregate data for analysis
 * Use Brunel to create interactive charts
 
-### 6. See the results
+#### 6. See the results
 
 * Code cells that prepare DataFrames with calculated and aggregated fields include show() output to give you a peek at the data as it is being processed.
 
@@ -196,11 +188,11 @@ This notebook demonstrates how to:
 
   ![user](doc/source/images/user.png)
 
-# Sample output
+## Sample output
 
 See the notebook with example output and **interactive charts** [here](https://nbviewer.jupyter.org/github/IBM/db2-event-store-clickstream/blob/master/data/examples/analyze_clickstream_events.ipynb).
 
-# Links
+## Links
 
 * [**Ingest and Analyze Streaming Event Data at Scale with IBM Db2 EventStore**](https://www.ibmbigdatahub.com/blog/ingest-and-analyze-streaming-event-data-scale-ibm-eventstore)
 * [**Fast Data Ingestion, ML Equates to Smarter Decisions Faster**](https://www.ibm.com/blogs/think/2018/03/db2-event-store/)
@@ -209,13 +201,13 @@ See the notebook with example output and **interactive charts** [here](https://n
 * [**Db2 Event Store Product Page**](https://www.ibm.com/products/db2-event-store)
 * [**Getting Started with Scala and sbt**](https://docs.scala-lang.org/getting-started-sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html)
 
-# Learn more
+## Learn more
 
 * **Data Analytics Code Patterns**: Enjoyed this code pattern? Check out our other [data analytics code patterns](https://developer.ibm.com/technologies/analytics/)
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our code pattern videos
 * **IBM Watson Studio**: Master the art of data science with IBM's [Watson Studio](https://www.ibm.com/cloud/watson-studio)
 
-# License
+## License
 
 This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
