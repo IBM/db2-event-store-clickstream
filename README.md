@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/IBM/db2-event-store-clickstream.svg?branch=master)](https://travis-ci.org/IBM/db2-event-store-clickstream)
+
 # Clickstream Analysis with IBM Db2 Event Store
 
 IBM Db2 Event Store offers high-speed ingestion and real-time analytics for large
